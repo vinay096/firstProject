@@ -7,13 +7,12 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import StyleLesson from './src/components/StyleLesson';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+      <StyleLesson />
     </SafeAreaView>
   );
 }

@@ -7,13 +7,12 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import FunctionalComp from './src/components/FunctionalComp';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+      <FunctionalComp />
     </SafeAreaView>
   );
 }

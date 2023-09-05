@@ -14,6 +14,7 @@ import FlatListHide from './src/components/Flatlist/FlatListHide';
 import SingleSelect from './src/components/Flatlist/SingleSelect';
 import MultiSelect from './src/components/Flatlist/MultiSelect';
 import SearchFilter from './src/components/Flatlist/SearchFilter';
+import SliderIndicator from './src/components/Flatlist/SliderIndicator';
 
 function App(): JSX.Element {
   return (
@@ -24,7 +25,8 @@ function App(): JSX.Element {
       {/* <FlatListHide /> */}
       {/* <SingleSelect /> */}
       {/* <MultiSelect /> */}
-      <SearchFilter />
+      {/* <SearchFilter /> */}
+      <SliderIndicator />
     </SafeAreaView>
   );
 }

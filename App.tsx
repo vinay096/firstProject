@@ -13,16 +13,18 @@ import FlatListNested from './src/components/Flatlist/FlatListNested';
 import FlatListHide from './src/components/Flatlist/FlatListHide';
 import SingleSelect from './src/components/Flatlist/SingleSelect';
 import MultiSelect from './src/components/Flatlist/MultiSelect';
+import SearchFilter from './src/components/Flatlist/SearchFilter';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       {/* <FlatListVertical /> */}
       {/* <FlatListHorizontal /> */}
       {/* <FlatListNested /> */}
       {/* <FlatListHide /> */}
       {/* <SingleSelect /> */}
-      <MultiSelect />
+      {/* <MultiSelect /> */}
+      <SearchFilter />
     </SafeAreaView>
   );
 }

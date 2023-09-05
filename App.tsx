@@ -12,6 +12,7 @@ import FlatListHorizontal from './src/components/Flatlist/FlatListHorizontal';
 import FlatListNested from './src/components/Flatlist/FlatListNested';
 import FlatListHide from './src/components/Flatlist/FlatListHide';
 import SingleSelect from './src/components/Flatlist/SingleSelect';
+import MultiSelect from './src/components/Flatlist/MultiSelect';
 
 function App(): JSX.Element {
   return (
@@ -20,7 +21,8 @@ function App(): JSX.Element {
       {/* <FlatListHorizontal /> */}
       {/* <FlatListNested /> */}
       {/* <FlatListHide /> */}
-      <SingleSelect />
+      {/* <SingleSelect /> */}
+      <MultiSelect />
     </SafeAreaView>
   );
 }

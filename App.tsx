@@ -7,13 +7,12 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import FlatListVertical from './src/components/Flatlist/FlatListVertical';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+      <FlatListVertical />
     </SafeAreaView>
   );
 }

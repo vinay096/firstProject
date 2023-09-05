@@ -7,13 +7,12 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import CustomListDemo from './src/components/CustomListDemo';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+    <SafeAreaView style={{flex: 1}}>
+      <CustomListDemo />
     </SafeAreaView>
   );
 }

@@ -7,12 +7,14 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
-import ModalLesson from './src/components/ModalLesson';
+import ModalLesson from './src/components/Modal/ModalLesson';
+import CustomModalDemo from './src/components/Modal/CustomModalDemo';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView style={{flex: 1}}>
-      <ModalLesson />
+      {/* <ModalLesson /> */}
+      <CustomModalDemo />
     </SafeAreaView>
   );
 }

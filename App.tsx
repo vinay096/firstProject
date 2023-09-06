@@ -10,7 +10,7 @@ import {SafeAreaView, Text, View} from 'react-native';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{flex: 1}}>
       <View>
         <Text>Hello World</Text>
       </View>

@@ -11,6 +11,7 @@ import WebviewDemo from './src/components/webview/WebviewDemo';
 import WebBeforeLoad from './src/components/webview/WebBeforeLoad';
 import WebLoader from './src/components/webview/WebLoader';
 import WebMethods from './src/components/webview/WebMethods';
+import WebNavigationGesture from './src/components/webview/WebNavigationGesture';
 
 function App(): JSX.Element {
   return (
@@ -18,7 +19,8 @@ function App(): JSX.Element {
       {/* <WebviewDemo /> */}
       {/* <WebBeforeLoad /> */}
       {/* <WebLoader /> */}
-      <WebMethods />
+      {/* <WebMethods /> */}
+      <WebNavigationGesture />
     </SafeAreaView>
   );
 }

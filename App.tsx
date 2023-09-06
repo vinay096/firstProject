@@ -7,13 +7,12 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import LoaderDemo from './src/components/LoaderDemo';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+    <SafeAreaView style={{flex: 1}}>
+      <LoaderDemo />
     </SafeAreaView>
   );
 }

@@ -12,6 +12,7 @@ import WebBeforeLoad from './src/components/webview/WebBeforeLoad';
 import WebLoader from './src/components/webview/WebLoader';
 import WebMethods from './src/components/webview/WebMethods';
 import WebNavigationGesture from './src/components/webview/WebNavigationGesture';
+import WebNavigationStateChange from './src/components/webview/WebNavigationStateChange';
 
 function App(): JSX.Element {
   return (
@@ -20,7 +21,8 @@ function App(): JSX.Element {
       {/* <WebBeforeLoad /> */}
       {/* <WebLoader /> */}
       {/* <WebMethods /> */}
-      <WebNavigationGesture />
+      {/* <WebNavigationGesture /> */}
+      <WebNavigationStateChange />
     </SafeAreaView>
   );
 }

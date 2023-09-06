@@ -10,13 +10,15 @@ import {SafeAreaView, Text, View} from 'react-native';
 import WebviewDemo from './src/components/webview/WebviewDemo';
 import WebBeforeLoad from './src/components/webview/WebBeforeLoad';
 import WebLoader from './src/components/webview/WebLoader';
+import WebMethods from './src/components/webview/WebMethods';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView style={{flex: 1}}>
       {/* <WebviewDemo /> */}
       {/* <WebBeforeLoad /> */}
-      <WebLoader />
+      {/* <WebLoader /> */}
+      <WebMethods />
     </SafeAreaView>
   );
 }

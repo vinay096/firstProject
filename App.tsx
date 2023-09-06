@@ -7,13 +7,12 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import PressableDemo from './src/components/PressableDemo';
 
 function App(): JSX.Element {
   return (
-    <SafeAreaView>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+    <SafeAreaView style={{flex: 1}}>
+      <PressableDemo />
     </SafeAreaView>
   );
 }

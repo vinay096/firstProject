@@ -7,13 +7,12 @@
 
 import React from 'react';
 import {SafeAreaView, Text, View} from 'react-native';
+import RefDemo from './src/components/RefDemo';
 
 function App(): JSX.Element {
   return (
     <SafeAreaView style={{flex: 1}}>
-      <View>
-        <Text>Hello World</Text>
-      </View>
+      <RefDemo />
     </SafeAreaView>
   );
 }
